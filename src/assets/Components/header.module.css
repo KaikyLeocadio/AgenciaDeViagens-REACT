@@ -21,6 +21,15 @@ header {
     gap: 30px;
     list-style: none;
 }
+.nav_link li:hover{
+    transition: 0.5s;
+    background-color: rgba(128, 0, 128, 0.219);
+    border-radius: 15px;
+}
+
+.nav_link li:not(:hover){
+    transition: 0.5s;
+}
 
 .search{
     justify-content: center;
